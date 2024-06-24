@@ -1,9 +1,16 @@
+import Header from "./components/Header";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
-      Hello
-    </div>
+   <>
+     <Header/>
+      <main>
+        <Container>
+          <h1>Welcome to my App!</h1>
+        </Container>
+      </main>
+   </>
   );
 }
 
